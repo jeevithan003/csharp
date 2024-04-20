@@ -112,6 +112,36 @@ namespace ConsoleApp11
 }
 
 
+// See https://aka.ms/new-console-template for more information
+using System;
+namespace ConsoleApp11
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            int a = 2;
+            int b=3;
+            Console.WriteLine(Math.Min(a,b));
+            Console.WriteLine(Math.Max(a,b));
+            Console.WriteLine(Math.Abs(b));
+            Console.WriteLine(Math.Round(24.42));
+            Console.WriteLine(Math.Log(a));
+            Console.WriteLine(Math.Pow(a,2));
+
+
+
+        }
+
+
+
+    }
+}
+
+
+
+
 
 
 
